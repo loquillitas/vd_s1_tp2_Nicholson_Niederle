@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chart 05 - X</title>
+    <style>
+      #chart{
+        overflow-y:auto;
+      }
+      #chart svg{
+        max-width: initial;
+      }
+    </style>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="chart1">
+      <h2> Ocupaciones en el espacio</h2>
+      <p> Las ocupaciones de los astronautas son variadas, pero en su mayoría tienen una formación en ingeniería aeroespacial por obvias razones. Además las horas de misiones acumuladas varían según la ocupación. </p>
+      <div id="chart_01"></div>
+
+      <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6"></script>
+      <script
+          src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.2/iframeResizer.contentWindow.js"></script>
+      <script src="script.js"></script>
+  </div>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chart 05 - X</title>
+    <style>
+      #chart{
+        overflow-y:auto;
+      }
+      #chart svg{
+        max-width: initial;
+      }
+    </style>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="chart2">
+      <h2> Horas de mision por año </h2>
+      <p> Podemos ver un descenso en las horas de misiónes espaciales totales. Tanto por la reducción en la cantidad de misiones espaciales tripuladas y la disminución de la duración de cada misión. También se han producido cambios en las rutinas espaciales, hay mayor dependencia de la automatización y la robótica en lugar de la intervención humana directa.</p>
+      <div id="chart_02"></div>
+
+      <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6"></script>
+      <script
+          src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.2/iframeResizer.contentWindow.js"></script>
+      <script src="script.js"></script>
+  </div>
+  </body>
+</html>
